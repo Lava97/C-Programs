@@ -6,6 +6,6 @@ This folder will contain user defined functions that I have made. Mostly, I will
 ## Contents
 [Back to C-Programs Repository](https://github.com/Lava97/C-Programs)
 
-[README]()
+[README](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/README.md)
 
-[Absolute.c]()
+[Absolute.c](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/Absolute.c)
