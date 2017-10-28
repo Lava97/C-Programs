@@ -9,3 +9,7 @@ This folder will contain user defined functions that I have made. Mostly, I will
 [README](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/README.md)
 
 [Absolute.c](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/Absolute.c)
+
+[Strlen.c](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/Strlen.c)
+
+[Strset.c](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/Strset.c)
