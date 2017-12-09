@@ -1,5 +1,5 @@
 /**
-Description :
+Description : This is an implementation of wc command in linux, written in C
 Author : Lalit D. Chandwani
 Version : 1.0 , 6 December 2017
 Last Modified : 9 December
