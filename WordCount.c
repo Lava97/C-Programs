@@ -51,7 +51,6 @@ int main(int argc, char const *argv[]) {
         if(lch == EOF){
           printf("Number of lines in %s: %d\n", argv[index], l_count);
           fclose(fin);
-          return EXIT_SUCCESS;
         }
         else{
           l_count = l_count + 1;
