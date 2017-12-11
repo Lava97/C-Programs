@@ -26,6 +26,7 @@ int main(int argc, char const *argv[]) {
       for(index = 2; index < argc; index++){
         fin = fopen(argv[index],"r");
         if(fin == NULL){
+          printf("Incorrect file path or no file path provided!\n");
           return EXIT_FAILURE;
         }
         ch = fgetc(fin);
@@ -43,6 +44,7 @@ int main(int argc, char const *argv[]) {
       for(index = 2; index < argc; index++){
         fin = fopen(argv[index],"r");
         if(fin == NULL){
+          printf("Incorrect file path or no file path provided!\n");
           return EXIT_FAILURE;
         }
         lch = fgetc(fin);
@@ -67,6 +69,7 @@ int main(int argc, char const *argv[]) {
       for(index = 2; index < argc; index++){
         fin = fopen(argv[index],"r");
         if(fin == NULL){
+          printf("Incorrect file path or no file path provided!\n");
           return EXIT_FAILURE;
         }
         ch = fgetc(fin);
@@ -90,6 +93,7 @@ int main(int argc, char const *argv[]) {
       for(index = 1; index < argc; index++){
         fin = fopen(argv[index],"r");
         if(fin == NULL){
+          printf("Incorrect file path or no file path provided!\n");
           return EXIT_FAILURE;
         }
         //Word Count
@@ -106,7 +110,7 @@ int main(int argc, char const *argv[]) {
         }
         printf("Number of words in %s: %d\n", argv[index], w_count);
         fclose(fin);
-        //Line Count
+        //Line Count and Character Count
         fin = fopen(argv[index],"r");
         lch = fgetc(fin);
         if(lch == EOF){
@@ -118,21 +122,16 @@ int main(int argc, char const *argv[]) {
           if(lch == '\n') {
             l_count = l_count + 1;
           }
+          c_count = c_count + 1;
           lch = fgetc(fin);
         }
         printf("Number of lines in %s: %d\n", argv[index], l_count);
-        fclose(fin);
-        //Character Count
-        fin = fopen(argv[index],"r");
-        ch = fgetc(fin);
-        while(ch != EOF){
-          c_count = c_count + 1;
-          ch = fgetc(fin);
-        }
         printf("Number of characters in %s: %d\n", argv[index], c_count);
         fclose(fin);
       }
       return EXIT_SUCCESS;
     }
   }
+  printf("Invalid arguments!\n");
+  return EXIT_FAILURE;
 }
