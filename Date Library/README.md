@@ -6,7 +6,7 @@ This folder will contain date library that I am working on.
 ## Contents
 [Back to C-Programs Repository](https://github.com/Lava97/C-Programs)
 
-[README](https://github.com/Lava97/C-Programs/blob/master/User%20Defined%20Functions/README.md)
+[README](https://github.com/Lava97/C-Programs/blob/master/Date%20Library/README.md)
 
 [date.h](https://github.com/Lava97/C-Programs/blob/master/Date%20Library/date.h)
 
