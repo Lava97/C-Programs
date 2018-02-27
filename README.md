@@ -11,4 +11,4 @@ This is a repository where I will upload libraries made by me and also other pro
 
 [Infix to Postfix Converter](https://github.com/Lava97/C-Programs/blob/master/infixToPostfix.c)
 
-[WordCount.c](https://github.com/Lava97/C-Programs/blob/master/WordCount.c)
+[WordCount.c](https://github.com/Lava97/C-Programs/blob/master/wcCommandInLinux.c)
